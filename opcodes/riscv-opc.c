@@ -2011,6 +2011,7 @@ const struct riscv_opcode riscv_opcodes[] =
 
 /* Vendor-specific (EPFL) NM-Carus custom instructions */
 {"xvadd.vv",          0, INSN_CLASS_V,  "tVm",        MATCH_XVADD_VV,          MASK_XVADD_VV,          match_opcode, 0 },
+{"xvadd.avv",         0, INSN_CLASS_V,  "tVm",        MATCH_XVADD_AVV,         MASK_XVADD_AVV,         match_opcode, 0 },
 {"xvadd.vx",          0, INSN_CLASS_V,  "t,sVm",      MATCH_XVADD_VX,          MASK_XVADD_VX,          match_opcode, 0 },
 {"xvadd.vi",          0, INSN_CLASS_V,  "t,ViVm",     MATCH_XVADD_VI,          MASK_XVADD_VI,          match_opcode, 0 },
 {"xvsub.vv",          0, INSN_CLASS_V,  "tVm",        MATCH_XVSUB_VV,          MASK_XVSUB_VV,          match_opcode, 0 },
